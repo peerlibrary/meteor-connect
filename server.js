@@ -1,0 +1,1 @@
+connect = Npm.require('connect');

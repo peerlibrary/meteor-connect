@@ -2,11 +2,12 @@ Package.describe({
   summary: "Meteor smart package for connect node.js package"
 });
 
-Package.on_use(function (api) {
-  api.use('coffeescript', 'server');
+Npm.depends({
+  connect: "2.8.0"
+});
 
+Package.on_use(function (api) {
   api.add_files([
-    'bootstrap.coffee',
-    'server.coffee'
+    'server.js'
   ], 'server');
 });
