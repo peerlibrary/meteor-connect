@@ -7,4 +7,5 @@ Tinytest.add('meteor-connect', function (test) {
   catch (e) {
   }
   test.isTrue(isDefined, "connect is not defined");
+  test.isTrue(Package.connect.connect, "Package.connect.connect is not defined");
 });
