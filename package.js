@@ -3,7 +3,7 @@ Package.describe({
 });
 
 Npm.depends({
-  connect: "2.8.5"
+  connect: "2.22.0"
 });
 
 Package.on_use(function (api) {
