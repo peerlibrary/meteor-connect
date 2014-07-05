@@ -15,6 +15,6 @@ Package.on_use(function (api) {
 });
 
 Package.on_test(function (api) {
-  api.use(['connect', 'tinytest', 'test-helpers'], ['server']);
-  api.add_files('tests.js', ['server']);
+  api.use(['connect', 'tinytest', 'test-helpers'], 'server');
+  api.add_files('tests.js', 'server');
 });
