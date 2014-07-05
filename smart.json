@@ -1,6 +1,6 @@
 {
   "name": "connect",
-  "description": "Meteor smart package for connect node.js package",
+  "description": "Connect is a middleware framework for node",
   "homepage": "https://github.com/peerlibrary/meteor-connect",
   "author": "The PeerLibrary Project",
   "version": "2.8.5.2",

@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "Meteor smart package for connect node.js package"
+  summary: "Connect is a middleware framework for node"
 });
 
 Npm.depends({
