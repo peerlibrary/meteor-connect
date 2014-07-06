@@ -1,4 +1,4 @@
-Tinytest.add('meteor-connect', function (test) {
+Tinytest.add('connect', function (test) {
   var isDefined = false;
   try {
     connect;
