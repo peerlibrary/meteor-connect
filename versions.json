@@ -5,6 +5,10 @@
       "1.0.3"
     ],
     [
+      "peerlibrary:connect",
+      "2.22.0-2"
+    ],
+    [
       "underscore",
       "1.0.0"
     ]
