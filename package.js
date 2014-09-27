@@ -1,6 +1,6 @@
 Package.describe({
   summary: "Connect is a middleware framework for node",
-  version: '2.22.0-2',
+  version: '2.22.0_3',
   name: 'peerlibrary:connect',
   git: 'https://github.com/peerlibrary/meteor-connect.git'
 });
@@ -10,7 +10,7 @@ Npm.depends({
 });
 
 Package.on_use(function (api) {
-  api.versionsFrom('METEOR@0.9.1.1');
+  api.versionsFrom('METEOR@0.9.3');
   api.export('connect');
 
   api.add_files([
