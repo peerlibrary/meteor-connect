@@ -13,5 +13,5 @@ Installation
 ------------
 
 ```
-mrt add connect
+meteor add peerlibrary:connect
 ```
